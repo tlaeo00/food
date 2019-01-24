@@ -11,6 +11,7 @@
     <groupId>com.gobabox</groupId>
     <artifactId>food</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging><!-- webapp 인식하려면 패키징을 war 로 한다. -->
     <name>food</name>
     <description>Gobabox project for Spring Boot</description>
 
