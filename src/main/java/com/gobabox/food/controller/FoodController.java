@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping(value = "/food/")
 public class FoodController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(FoodController.class);
@@ -17,11 +16,11 @@ public class FoodController {
     @Autowired
     private FoodService service;
 
-    @RequestMapping(value="getUser")
+    @RequestMapping(value="/")
     public ModelAndView getUser() {
-        LOGGER.info("getUser 호출~~~ {}", "좋은데??");
-        service.getUser();
-        return new ModelAndView("test", "result", "success123234345465465");
+        LOGGER.info("index page");
+//        service.getUser();
+        return new ModelAndView("main", "result", "success123234345465465");
     }
 
 }
