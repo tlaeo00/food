@@ -24,6 +24,12 @@ hr.light {
   border-color: #fff;
 }
 
+.menu {
+  max-width: 50px;
+  border-width: 1px;
+  border-color: #F05F40;
+}
+
 a {
   color: #F05F40;
   -webkit-transition: all 0.2s;
@@ -56,7 +62,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 .section-heading {
@@ -204,7 +210,7 @@ header.masthead p {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    /*height: 100vh;*/
     /*min-height: 650px;*/
     padding-top: 0;
     padding-bottom: 0;

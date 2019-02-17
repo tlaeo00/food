@@ -185,22 +185,6 @@
         <div class="swiper-pagination"></div>
     </div>
 </header>
-<%--<header class="masthead text-center text-white d-flex">--%>
-    <%--<div class="container my-auto">--%>
-        <%--<div class="row">--%>
-            <%--<div class="col-lg-10 mx-auto">--%>
-                <%--<h1 class="text-uppercase">--%>
-                    <%--<strong>단풍나무 - 육개장 & 오리</strong>--%>
-                <%--</h1>--%>
-                <%--<hr>--%>
-            <%--</div>--%>
-            <%--<div class="col-lg-8 mx-auto">--%>
-                <%--<p class="text-faded mb-5">육개장이 맛있는 감성식당 검단맛집</p>--%>
-                <%--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">소개글</a>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
-<%--</header>--%>
 
 <section class="bg-primary" id="about">
     <div class="container">
@@ -229,30 +213,30 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <h3 class="mb-3 sr-icon-1">육개장</h3>
+                    <h4 class="mb-3 sr-icon-1">육개장</h4>
                     <img class="img-fluid rounded sr-icon-1" src="bootstrap/img/picture/menu1.jpg" alt="">
-                    <p class="text-muted mb-0">단풍나무에 대표 메뉴</p>
+                    <p class="text-muted mb-0"><li class="fas fa-utensils"></li> 단풍나무에 대표 메뉴</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
                     <h3 class="mb-3 sr-icon-1">오리주물럭</h3>
                     <img class="img-fluid rounded sr-icon-1" src="bootstrap/img/picture/menu2.jpg" alt="">
-                    <p class="text-muted mb-0">단풍나무에 대표 메뉴</p>
+                    <p class="text-muted mb-0"><li class="fas fa-utensils"></li> 단풍나무에 대표 메뉴</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
                     <h3 class="mb-3 sr-icon-1">오리훈제구이</h3>
                     <img class="img-fluid rounded sr-icon-1" src="bootstrap/img/picture/menu3.jpg" alt="">
-                    <p class="text-muted mb-0">단풍나무에 대표 메뉴</p>
+                    <p class="text-muted mb-0"><li class="fas fa-utensils"></li> 단풍나무에 대표 메뉴</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
                     <h3 class="mb-3 sr-icon-1">닭도리탕</h3>
                     <img class="img-fluid rounded sr-icon-1" src="bootstrap/img/picture/menu4.jpg" alt="">
-                    <p class="text-muted mb-0">단풍나무에 대표 메뉴</p>
+                    <p class="text-muted mb-0"><li class="fas fa-utensils"></li> 단풍나무에 대표 메뉴</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
@@ -265,67 +249,195 @@
     </div>
 </section>
 
+<section id="all-menu">
+    <div class="container text-center">
+        <div class="col-lg-10 mx-auto">
+            <h5 class="text-uppercase">
+                <strong>육개장</strong>
+            </h5>
+            <hr class="menu">
+        </div>
+        <div class="col-lg-8 mx-auto">
+            <p class="mb-5">소 : 18,000 중 : 25,000 대 : 30,000</p>
+            <p class="mb-5">원산지 : ㅁㅁ</p>
+            <p class="mb-5">맛좋음</p>
+        </div>
+        <div class="col-lg-10 mx-auto">
+            <h5 class="text-uppercase">
+                <strong>육개장</strong>
+            </h5>
+            <hr class="menu">
+        </div>
+        <div class="col-lg-8 mx-auto">
+            <p class="mb-5">소 : 18,000 중 : 25,000 대 : 30,000</p>
+            <p class="mb-5">원산지 : ㅁㅁ</p>
+            <p class="mb-5">맛좋음</p>
+        </div>
+        <div class="col-lg-10 mx-auto">
+            <h5 class="text-uppercase">
+                <strong>육개장</strong>
+            </h5>
+            <hr class="menu">
+        </div>
+        <div class="col-lg-8 mx-auto">
+            <p class="mb-5">소 : 18,000 중 : 25,000 대 : 30,000</p>
+            <p class="mb-5">원산지 : ㅁㅁ</p>
+            <p class="mb-5">맛좋음</p>
+        </div>
+    </div>
+</section>
+
 <section class="p-0" id="portfolio">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg01.jpg" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">주변풍경</h2>
+                <hr class="my-4">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-12">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg01.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg02.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg02.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg03.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg03.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg04.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg04.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg05.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg05.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg06.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg06.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg07.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg07.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg08.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg08.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg09.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg09.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg10.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg10.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg11.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg11.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <img class="img-fluid rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg12.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-cascade narrower">
+                <div class="view view-cascade overlay">
+                    <img class="rounded" style="width:100%;height: 260px;" src="bootstrap/img/portfolio/thumbnails/bg12.jpg">
+                    <a><div class="mask rgba-white-slight"></div></a>
+                </div>
+                <div class="card-body card-body-cascade">
+                    <%--<h5 class="pink-text">육개장</h5>--%>
+                    <p class="card-text">설명 블라블라~~~~</p>
                 </div>
             </div>
         </div>
@@ -349,10 +461,10 @@
                 </a>
             </div>
             <div class="col-lg-4 mr-auto text-center">
-                <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
-                <p>
-                    <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-                </p>
+                <a href="mailto:your-email@your-domain.com">
+                    <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+                    <p>soo@naver.com</p>
+                </a>
             </div>
         </div>
     </div>
@@ -372,6 +484,7 @@
 
 <!-- Swiper JS -->
 <script src="bootstrap/js/swiper.min.js"></script>
+
 <script>
     var swiper = new Swiper('.swiper-container', {
         pagination: {
