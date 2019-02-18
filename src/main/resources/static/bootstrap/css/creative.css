@@ -26,8 +26,10 @@ hr.light {
 
 .menu {
   max-width: 50px;
-  border-width: 1px;
+  border-width: 2px;
   border-color: #F05F40;
+  margin-top: 0px;
+  margin-bottom: 1rem;
 }
 
 a {
@@ -195,7 +197,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 header.masthead p {

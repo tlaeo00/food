@@ -82,6 +82,9 @@
                     <a class="nav-link js-scroll-trigger" href="#services">메뉴소개</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#all-menu">전체메뉴</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#portfolio">주변풍경</a>
                 </li>
                 <li class="nav-item">
@@ -190,7 +193,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <h2 class="section-heading text-white">단풍나무에서 드리는 글</h2>
+                <h3 class="section-heading text-white">단풍나무에서 드리는 글</h3>
                 <hr class="light my-4">
                 <p class="text-faded mb-3">저녁시간에는 예약필수입니다 ^^</p>
                 <p class="text-faded mb-3">영업종료시간은 오후 10시입니다</p>
@@ -239,12 +242,6 @@
                     <p class="text-muted mb-0"><li class="fas fa-utensils"></li> 단풍나무에 대표 메뉴</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <h3 class="mb-3 sr-icon-1">전체 메뉴</h3>
-                    <img class="img-fluid rounded sr-icon-1" src="bootstrap/img/picture/all.jpg" alt="">
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -256,38 +253,27 @@
                 <strong>육개장</strong>
             </h5>
             <hr class="menu">
-        </div>
-        <div class="col-lg-8 mx-auto">
-            <p class="mb-5">소 : 18,000 중 : 25,000 대 : 30,000</p>
-            <p class="mb-5">원산지 : ㅁㅁ</p>
-            <p class="mb-5">맛좋음</p>
-        </div>
-        <div class="col-lg-10 mx-auto">
-            <h5 class="text-uppercase">
-                <strong>육개장</strong>
-            </h5>
-            <hr class="menu">
-        </div>
-        <div class="col-lg-8 mx-auto">
-            <p class="mb-5">소 : 18,000 중 : 25,000 대 : 30,000</p>
-            <p class="mb-5">원산지 : ㅁㅁ</p>
-            <p class="mb-5">맛좋음</p>
+            <div class="mx-auto">
+                <p>육개장 8,000</p>
+                <p>백개장 8,000</p>
+                <p>육개장 전골 中 25,000</p>
+                <p>            大 35,000</p>
+            </div>
         </div>
         <div class="col-lg-10 mx-auto">
             <h5 class="text-uppercase">
-                <strong>육개장</strong>
+                <strong>오리</strong>
             </h5>
             <hr class="menu">
-        </div>
-        <div class="col-lg-8 mx-auto">
-            <p class="mb-5">소 : 18,000 중 : 25,000 대 : 30,000</p>
-            <p class="mb-5">원산지 : ㅁㅁ</p>
-            <p class="mb-5">맛좋음</p>
+            <div class="mx-auto">
+                <p>8,000</p>
+                <p>원산지 : 국내산</p>
+            </div>
         </div>
     </div>
 </section>
 
-<section class="p-0" id="portfolio">
+<section id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
