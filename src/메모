@@ -1,0 +1,5 @@
+# aws ec2 에서 현재 설치된 프로그램 확인
+rpm -qa | grep mysql
+
+# aws ec2 에서 mysql 설치 삭제는 remove
+sudo yum install mysql-server mysql-client
